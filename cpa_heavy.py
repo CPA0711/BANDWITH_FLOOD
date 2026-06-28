@@ -398,7 +398,7 @@ class HeavyContentTester:
         
         # Target URL
         print(f"\n{Fore.WHITE}📝 Masukkan Target URL:")
-        print(f"{Fore.LIGHTBLACK_EX}Contoh: https://www.ronijablo.co.il")
+        print(f"{Fore.LIGHTBLACK_EX}https://www.example.com")
         
         while True:
             url_input = input(f"{Fore.GREEN}➜ {Fore.WHITE}URL: ").strip()
