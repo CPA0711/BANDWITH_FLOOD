@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BANDWIDTH OPTIMIZED TESTER 
+CPA BANDWIDTH OPTIMIZED TESTER 
 """
 
 import socket
@@ -137,12 +137,12 @@ class OptimizedTester:
 
 def main():
     print(f"\n{Fore.CYAN}{'='*60}")
-    print(f"{Fore.YELLOW}🚀 OPTIMIZED BANDWIDTH TESTER")
+    print(f"{Fore.YELLOW}🚀 CPA OPTIMIZED BANDWIDTH TESTER")
     print(f"{Fore.CYAN}{'='*60}")
     
     # Input URL
     print(f"\n{Fore.WHITE}📝 Masukkan Target URL:")
-    print(f"{Fore.LIGHTBLACK_EX}Contoh: https://gav-yam.co.il atau http://example.com")
+    print(f"{Fore.LIGHTBLACK_EX}http://example.com")
     url = input(f"{Fore.GREEN}➜ {Fore.WHITE}URL: ").strip()
     
     if not url:
@@ -198,7 +198,7 @@ def main():
     
     # Show results
     print(f"\n\n{Fore.CYAN}{'='*60}")
-    print(f"{Fore.YELLOW}📊 HASIL TESTING")
+    print(f"{Fore.YELLOW}📊 SUMMARY")
     print(f"{Fore.CYAN}{'='*60}")
     
     print(f"\n{Fore.WHITE}📈 Statistics:")
