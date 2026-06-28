@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-HEAVY CONTENT TESTER - Untuk Website dengan Konten Berat
+CPA HEAVY CONTENT TESTER - Untuk Website dengan Konten Berat
 Testing bandwidth dengan file besar, gambar, video, dan konten berat lainnya
 """
 
@@ -391,7 +391,7 @@ class HeavyContentTester:
     def interactive_input(self):
         """Input interaktif"""
         print(f"\n{Fore.CYAN}{'='*70}")
-        print(f"{Fore.YELLOW}🚀 HEAVY CONTENT BANDWIDTH TESTER v{Config.VERSION}")
+        print(f"{Fore.YELLOW}🚀 CPA HEAVY CONTENT BANDWIDTH TESTER v{Config.VERSION}")
         print(f"{Fore.CYAN}{'='*70}")
         print(f"{Fore.LIGHTBLACK_EX}Testing dengan file besar: Gambar, Video, Audio, Dokumen, API")
         print(f"{Fore.CYAN}{'='*70}")
@@ -604,7 +604,7 @@ class HeavyContentTester:
         success_rate = (stats['success_requests'] / max(1, stats['total_requests']) * 100)
         
         print(f"\n\n{Fore.CYAN}{'='*70}")
-        print(f"{Fore.YELLOW}📊 HEAVY CONTENT TEST RESULTS")
+        print(f"{Fore.YELLOW}📊 CPA HEAVY CONTENT TEST RESULTS")
         print(f"{Fore.CYAN}{'='*70}")
         
         print(f"\n{Fore.WHITE}📈 Transfer Statistics:")
