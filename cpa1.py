@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MULTI-ENDPOINT BANDWIDTH TESTER
+CPA MULTI-ENDPOINT BANDWIDTH TESTER
 Dengan Auto Generator, Validasi, dan Testing Multi Endpoint
 """
 
@@ -441,11 +441,11 @@ class MultiEndpointTester:
             last_time = current_time
     
     def interactive_input(self):
-        UIHelper.print_header("CAP MULTI-ENDPOINT BANDWIDTH TESTER", Config.VERSION)
+        UIHelper.print_header("CPA MULTI-ENDPOINT BANDWIDTH TESTER", Config.VERSION)
         
         # Target URL
         print(f"\n{Fore.WHITE}📝 Masukkan Target URL:")
-        print(f"{Fore.LIGHTBLACK_EX}Exmp: https://www.idf.co.il")
+        print(f"{Fore.LIGHTBLACK_EX}https://www.example.com")
         
         while True:
             url_input = input(f"{Fore.GREEN}➜ {Fore.WHITE}URL: ").strip()
