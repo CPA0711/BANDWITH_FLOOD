@@ -324,7 +324,7 @@ class UIHelper:
     
     @staticmethod
     def confirm(prompt="Mulai testing? (y/n)"):
-        return UIHelper.get_input(prompt, default='n', input_type=bool)
+        return UIHelper.get_input(prompt, default='y', input_type=bool)
 
         # ============ MAIN TESTER ============
 class MultiEndpointTester:
